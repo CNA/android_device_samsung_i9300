@@ -43,18 +43,6 @@ PRODUCT_COPY_FILES := \
     $(LOCAL_PATH)/ueventd.smdk4x12.rc:root/ueventd.smdk4x12.rc \
     $(LOCAL_PATH)/ueventd.smdk4x12.rc:recovery/root/ueventd.smdk4x12.rc
 
-# Kernel modules
-PRODUCT_COPY_FILES += \
-    device/samsung/i9300/modules/btlock.ko:/system/lib/modules/btlock.ko \
-    device/samsung/i9300/modules/cifs.ko:/system/lib/modules/cifs.ko \
-    device/samsung/i9300/modules/commkm.ko:/system/lib/modules/commkm.ko \
-    device/samsung/i9300/modules/dhd.ko:/system/lib/modules/dhd.ko \
-    device/samsung/i9300/modules/dns_resolver.ko:/system/lib/modules/dns_resolver.ko \
-    device/samsung/i9300/modules/md4.ko:/system/lib/modules/md4.ko \
-    device/samsung/i9300/modules/mvpkm.ko:/system/lib/modules/mvpkm.ko \
-    device/samsung/i9300/modules/pvtcpkm.ko:/system/lib/modules/pvtcpkm.ko \
-    device/samsung/i9300/modules/scsi_wait_scan.ko:/system/lib/modules/scsi_wait_scan.ko
-
 # Camera FW
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/80cfw:system/etc/init.d/80cfw
